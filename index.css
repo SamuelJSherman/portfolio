@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
 }
 
-main {}
+/* main {} */
 
 /**** Header styling ****/
 
@@ -110,9 +110,11 @@ h4 {
 }
 
 .navRight {
-    float: right;
+    /* float: right; */
+    position: fixed;
+    right: 0;
     padding: 30px;
-    display: inline-block;
+    display: inline-table;
 }
 
 .navRight a {
@@ -283,7 +285,7 @@ h4 {
     display: inline-block;
     border: 2px solid rgb(57, 128, 237);
     width: 200px;
-    /*    height: 50px;*/
+    /* height: 75px; */
     padding: 10px 20px;
     border-radius: 2px;
     margin: 10px 5px;
@@ -385,8 +387,9 @@ footer img {
         text-align: center;
         width: 100%;
     }
+
     .navLeft {
-        padding: 10px 0;
+        padding-top: 45px;
         text-align: center;
         width: 100%;
     }
@@ -405,6 +408,6 @@ footer img {
     }
     .skillIcons li {
         width: 115px;
-        height: 40px;
+        height: 50px;
     }
 }
