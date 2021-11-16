@@ -78,7 +78,7 @@ h4 {
 
 .left img {
     width: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
