@@ -36,7 +36,8 @@ body {
   right: 50px;
 
   padding-top: 120px;
-  color: #e9e2aa;
+  color: rgb(255, 255, 255);
+  /* color: #e9e2aa; */
 }
 
 h1,
@@ -84,6 +85,7 @@ h4 {
   width: 100%;
   height: 100px;
   position: fixed;
+  z-index: 2;
   top: 0;
   background-color: rgb(255, 255, 255);
   box-shadow: inset 0 -10px 8px -8px rgb(247, 247, 247);
@@ -295,11 +297,11 @@ h4 {
 #contact {
   background-color: rgb(247, 247, 247);
   margin-bottom: 0;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 #contact p {
-  padding: 10px;
+  padding: 50px;
 }
 
 /**** Footer style ****/
@@ -309,7 +311,7 @@ footer {
   height: 60px;
   text-align: center;
   position: relative;
-  bottom: 0;
+  bottom: 50px;
 }
 
 footer a i {
@@ -319,7 +321,7 @@ footer a i {
 
 footer p {
   font-size: 14px;
-  padding: 5px;
+  padding: 50px;
 }
 
 footer img {
