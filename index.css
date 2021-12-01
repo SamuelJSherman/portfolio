@@ -1,19 +1,19 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
 body,
 html {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    max-width: 1450px;
-    margin: 0 auto;
+  max-width: 2560px;
+  margin: 0 auto;
 }
 
 /* main {} */
@@ -21,105 +21,101 @@ body {
 /**** Header styling ****/
 
 .bg {
-    background-color: rgba(247, 247, 247, 0.5);
-    background: linear-gradient( rgba(255, 255, 255, 1.5),
-    rgba(0, 0, 0, 0.1)),
-    url("https://images.unsplash.com/photo-1486272376861-dfad58559979?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06ac322bad88d9f5ebbe8a41fb3f2665&auto=format&fit=crop&w=1953&q=80");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
+  background-color: rgba(247, 247, 247, 0.5);
+  background: 
+    url("https://upload.wikimedia.org/wikipedia/commons/a/a1/Cairns_%28rock_stack_landmarks%29_in_Pakistan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
 }
 
 .stmt {
-    /*
-    position: absolute;
-    bottom: 200px;
-    right: 10px;
-*/
-    padding-top: 120px;
-    color: rgb(247, 247, 247);
+  position: absolute;
+  top: 100px;
+  right: 50px;
+
+  padding-top: 120px;
+  color: #e9e2aa;
 }
 
 h1,
 p {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
-    Font-Size: 45px;
-    color: #3c291d;
-    color: rgb(57, 128, 237);
-    padding-top: 250px;
-    margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+  color: #3c291d;
+  padding-top: 250px;
+  margin: 0;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
-    Font-Size: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
 }
 
 .bg h4 {
-    font-size: 20px;
-    padding: 7px;
-    text-transform: uppercase;
+  font-size: 20px;
+  padding: 7px;
+  text-transform: uppercase;
 }
 
 h4 {
-    text-align: center;
+  text-align: center;
 }
 
 .tagline {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
 .left img {
-    width: 200px;
-    border-radius: 10%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  width: 200px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 /****** navbar style*****/
 
 .navbar {
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    background-color: rgb(255, 255, 255);
-    box-shadow: inset 0 -10px 8px -8px rgb(247, 247, 247);
-    font-size: 20px;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0 -10px 8px -8px rgb(247, 247, 247);
+  font-size: 20px;
 }
 
 .navbar a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navLeft {
-    padding: 30px;
-    display: inline-block;
+  padding: 30px;
+  display: inline-block;
 }
 
 .navLeft a {
-    color: rgb(57, 128, 237);
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+  color: #735585;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
 }
 
 .navRight {
-    /* float: right; */
-    position: fixed;
-    right: 0;
-    padding: 30px;
-    display: inline-table;
+  position: fixed;
+  right: 0;
+  padding: 30px;
+  display: inline-table;
 }
 
 .navRight a {
-    color: black;
-    padding: 10px;
+  color: #735585;
+
+  padding: 10px;
 }
 
 /***** About me *****/
@@ -128,9 +124,9 @@ h4 {
 #projects,
 #skills,
 #contact {
-    padding: 40px;
-    margin: 100px auto;
-    padding-top: 70px;
+  padding: 40px;
+  margin: 100px auto;
+  padding-top: 70px;
 }
 
 #about h4 i,
@@ -138,276 +134,284 @@ h4 {
 #skills h4 i,
 #contact h4 i,
 .navRight i {
-    color: #727272;
+  color: #727272;
 }
 
-
 .left {
-    width: 40%;
-    float: left;
-    padding: 30px;
-    text-align: center;
+  width: 40%;
+  float: left;
+  padding: 30px;
+  text-align: center;
 }
 
 .right {
-    width: 80%;
-    /*    float: left;*/
-    padding: 30px;
-    text-align: center;
-    margin: auto;
+  width: 80%;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
 }
 
 .right span {
-    font-size: 45px;
-    color: rgb(57, 128, 237);
-    font-weight: bold;
-    font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  color: #735585;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
 }
 
 .right p {
-    font-size: 18px;
-    color: #727272;
-    font-weight: lighter;
-    line-height: 28px;
-    padding: 10px;
+  font-size: 18px;
+  color: #553f74;
+  font-weight: lighter;
+  line-height: 28px;
+  padding: 10px;
 }
 
 #about h4,
 #projects h4,
 #skills h4,
 #contact h4 {
-    color: rgb(57, 128, 237);
-    font-size: 30px;
-    text-transform: capitalize;
-    font-weight: lighter;
+  color: #558b71;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: lighter;
 }
 
 /***** Projects *****/
 
 #projects {
-    background-color: rgb(247, 247, 247);
-    padding-top: 50px;
+  background-color: rgb(247, 247, 247);
+
+  padding-top: 50px;
 }
 
 .pOne,
 .pTwo,
 .pThree {
-    display: flex;
-    background-color: white;
-    margin: 50px 20px;
-    padding: 20px;
+  display: flex;
+  background-color: rgb(240, 243, 241);
+  margin: 50px 20px;
+  padding: 20px;
 }
 
 .pOne {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .pleft {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 
 .flashcardAppImage {
-    padding: 9px;
+  padding: 9px;
 }
 
 .pleft img {
-    width: 90%;
-    /*    border: 1px solid rgb(247, 247, 247);*/
-    border: 1px solid #72727226;
+  width: 90%;
+  border: 1px solid #558b71;
 }
 
 .pright {
-    width: 50%;
-    float: left;
-    padding: 10px;
+  width: 50%;
+  float: left;
+  padding: 10px;
 }
 
 .pright p {
-    text-align: left;
-    padding-bottom: 10px;
-    font-size: 18px;
-    color: #727272;
-    font-weight: lighter;
-    line-height: 28px;
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #727272;
+  font-weight: lighter;
+  line-height: 28px;
 }
 
 .pright h5 {
-    font-size: 22px;
-    font-weight: lighter;
-    padding: 10px 0;
+  font-size: 22px;
+  font-weight: lighter;
+  padding: 10px 0;
 }
 
 .demoCode {
-    margin-top: 15px;
-    padding-bottom: 25px;
+  margin-top: 15px;
+  padding-bottom: 25px;
 }
 
 .demoCode a {
-    font-size: 15px;
-    background-color: rgb(57, 128, 237);
-    color: white;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 2px;
-    text-decoration: none;
+  font-size: 15px;
+  background-color: #558b71;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 2px;
+  text-decoration: none;
 }
 
 .ptech {
-    padding-top: 20px;
-    padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .ptech li {
-    display: inline-block;
-    /*     border: 2px solid rgb(57, 128, 237);*/
-    padding: 3px 6px;
-    border-radius: 2px;
-    margin-bottom: 7px;
-    border: 1px solid #727272;
-    background-color: rgba(57, 128, 237, 0.1);
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 2px;
+  margin-bottom: 7px;
+  border: 1px solid #727272;
+  background-color: #e9e9e9;
 }
 
 .skillIcons {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skillIcons li {
-    text-align: center;
-    display: inline-block;
-    border: 2px solid rgb(57, 128, 237);
-    width: 200px;
-    /* height: 75px; */
-    padding: 10px 20px;
-    border-radius: 2px;
-    margin: 10px 5px;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #735585;
+  background-color: #e9e9e9;
+
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin: 10px 5px;
 }
 
 .sectionWrapper {
-    max-width: 1100px;
-    margin: auto;
+  max-width: 1100px;
+  margin: auto;
 }
-
 
 /***** Contact Me *****/
 
 #contact {
-    background-color: rgb(247, 247, 247);
-    margin-bottom: 0;
-    padding-bottom: 80px;
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 0;
+  padding-bottom: 80px;
 }
 
 #contact p {
-    padding: 10px;
+  padding: 10px;
 }
 
 /**** Footer style ****/
 
 footer {
-    background-color: rgb(247, 247, 247);
-    height: 60px;
-    /*    padding: 5px 5px 25px 5px;*/
-    text-align: center;
-    position: relative;
-    bottom: 0;
-
+  background-color: rgb(247, 247, 247);
+  height: 60px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
 }
 
 footer a i {
-    color: rgb(57, 128, 237);
-    padding: 5px;
+  color: #558b71;
+  padding: 5px;
 }
 
 footer p {
-    font-size: 14px;
-    padding: 5px;
+  font-size: 14px;
+  padding: 5px;
 }
 
 footer img {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 /***** Media queries *****/
 
 @media only screen and (max-width: 760px) {
-    .pOne,
-    .pTwo,
-    .pThree {
-        flex-wrap: wrap;
-    }
-    .pleft {
-        width: 100%;
-    }
-    .pright {
-        width: 100%;
-    }
-    .pright p {
-        font-size: 16px;
-    }
-    .container {
-        width: 100%;
-    }
-    .skillIcons li {
-        width: 170px;
-        height: 45px;
-    }
-    .stmt {
-        padding-top: 100px;
-        font-size: 18px;
-    }
-    h1 {
-        padding-top: 220px;
-    }
+  .pOne,
+  .pTwo,
+  .pThree {
+    flex-wrap: wrap;
+  }
+  .pleft {
+    width: 100%;
+  }
+  .pright {
+    width: 100%;
+  }
+  .pright p {
+    font-size: 16px;
+  }
+  .ptech li {
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3px 6px;
+    border-radius: 2px;
+    margin-bottom: 7px;
+    border: 1px solid #727272;
+    background-color: #e9e9e9;
+  }
+  .container {
+    width: 100%;
+  }
+  .skillIcons li {
+    width: 170px;
+    height: 45px;
+  }
+  .stmt {
+    padding-top: 120px;
+    font-size: 18px;
+  }
+  h1 {
+    padding-top: 220px;
+  }
 }
 
 @media only screen and (max-width: 387px) {
-    .demoCode a {
-        display: block;
-        margin-bottom: 5px;
-        text-align: center;
-    }
-    h1 {
-        padding-top: 180px;
-    }
+  .demoCode a {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  h1 {
+    padding-top: 180px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
-    .navRight {
-        padding: 10px 5px;
-        font-size: 16px;
-        text-align: center;
-        width: 100%;
-    }
+  .navRight {
+    padding: 10px 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
 
-    .navLeft {
-        padding-top: 45px;
-        text-align: center;
-        width: 100%;
-    }
-    h1 {
-        Font-Size: 40px;
-    }
-    .bg h4 {
-        font-size: 18px;
-    }
-    .right {
-        width: 90%;
-        padding: 30px 0 0 0;
-    }
-    .demoCode a {
-        padding: 7px 18px;
-    }
-    .skillIcons li {
-        width: 115px;
-        height: 50px;
-    }
+  .navLeft {
+    padding-top: 45px;
+    text-align: center;
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .bg h4 {
+    font-size: 18px;
+  }
+  .right {
+    width: 90%;
+    padding: 30px 0 0 0;
+  }
+  .demoCode a {
+    padding: 7px 18px;
+  }
+  .skillIcons li {
+    width: 115px;
+    height: 50px;
+  }
 }
