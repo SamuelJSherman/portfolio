@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 body,
@@ -26,17 +26,18 @@ body {
     url("https://upload.wikimedia.org/wikipedia/commons/a/a1/Cairns_%28rock_stack_landmarks%29_in_Pakistan.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   height: 80vh;
 }
 
 .stmt {
+  font-size: 36px;
   position: absolute;
-  top: 100px;
-  right: 50px;
-
+  top: 280px;
+  left: 30%;
   padding-top: 120px;
-  color: rgb(255, 255, 255);
+  color: white;
+  /* color: #BA990B; */
   /* color: #e9e2aa; */
 }
 
@@ -46,7 +47,7 @@ p {
 }
 
 h1 {
-  font-family: "Lato", sans-serif;
+font-family: 'Outfit', sans-serif;
   font-size: 45px;
   color: #3c291d;
   padding-top: 250px;
@@ -54,8 +55,8 @@ h1 {
 }
 
 p {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+    font-size: 20px;
 }
 
 .bg h4 {
@@ -103,8 +104,8 @@ h4 {
 
 .navLeft a {
   color: #735585;
-  font-family: "Comforter", cursive;
-  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+    font-size: 50px;
 }
 
 .navRight {
@@ -331,7 +332,38 @@ footer img {
 
 /***** Media queries *****/
 
+@media only screen and (max-width: 1925px) {
+  .stmt {
+    top: 200px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .stmt {
+    font-size: 24px;
+    left: 20%;
+    top: 150px;
+  }
+}
+
+
 @media only screen and (max-width: 760px) {
+  .stmt {
+    font-size: 14px;
+    left: 10%;
+  }
+  .navRight {
+    padding: 10px 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navLeft {
+    padding-top: 45px;
+    text-align: center;
+    width: 100%;
+  }
   .pOne,
   .pTwo,
   .pThree {
@@ -368,7 +400,7 @@ footer img {
   }
   .stmt {
     padding-top: 120px;
-    font-size: 18px;
+    font-size: 24px;
   }
   h1 {
     padding-top: 220px;
@@ -376,6 +408,10 @@ footer img {
 }
 
 @media only screen and (max-width: 387px) {
+  .stmt {
+    font-size: 14px;
+    left: 10%;
+  }
   .demoCode a {
     display: block;
     margin-bottom: 5px;
@@ -387,6 +423,10 @@ footer img {
 }
 
 @media only screen and (max-width: 530px) {
+  .stmt {
+    font-size: 20px;
+    left: 11%;
+  }
   .navRight {
     padding: 10px 5px;
     font-size: 16px;
