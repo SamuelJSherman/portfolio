@@ -127,10 +127,14 @@ h4 {
 #projects,
 #skills,
 #contact {
-  padding: 40px;
-  margin: 100px auto;
-  padding-top: 70px;
+  padding: 100px;
+  /* margin: 100px auto; */
+  /* padding-top: 100px; */
 }
+#skills {
+  padding-top: 0px;
+}
+
 
 #about h4 i,
 #projects h4 i,
@@ -265,11 +269,12 @@ h4 {
 }
 
 .skillIcons {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .container {
   width: 90%;
+  padding-top: 50px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
