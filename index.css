@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 body,
@@ -22,8 +22,7 @@ body {
 
 .bg {
   background-color: rgba(247, 247, 247, 0.5);
-  background: 
-    url("https://upload.wikimedia.org/wikipedia/commons/a/a1/Cairns_%28rock_stack_landmarks%29_in_Pakistan.jpg");
+  background: url("https://upload.wikimedia.org/wikipedia/commons/a/a1/Cairns_%28rock_stack_landmarks%29_in_Pakistan.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -33,12 +32,9 @@ body {
 .stmt {
   font-size: 36px;
   position: absolute;
-  top: 280px;
-  left: 30%;
-  padding-top: 120px;
+  top: 10%;
+  left: 5%;
   color: white;
-  /* color: #BA990B; */
-  /* color: #e9e2aa; */
 }
 
 h1,
@@ -47,7 +43,7 @@ p {
 }
 
 h1 {
-font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 45px;
   color: #3c291d;
   padding-top: 250px;
@@ -55,8 +51,8 @@ font-family: 'Outfit', sans-serif;
 }
 
 p {
-  font-family: 'Outfit', sans-serif;
-    font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
 }
 
 .bg h4 {
@@ -75,9 +71,18 @@ h4 {
 }
 
 .left img {
-  width: 200px;
-  border-radius: 10%;
+  max-width: 400px;
+  margin: auto;
+  float: right;
+  width: 100%;
+  border-radius: 2%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /****** navbar style*****/
@@ -104,8 +109,8 @@ h4 {
 
 .navLeft a {
   color: #735585;
-  font-family: 'Amatic SC', cursive;
-    font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
 }
 
 .navRight {
@@ -122,17 +127,16 @@ h4 {
 }
 
 /***** About me *****/
+#about {
+  padding-top: 100px;
+}
 
-#about,
+
 #projects,
 #skills,
 #contact {
   padding: 100px;
-  /* margin: 100px auto; */
-  /* padding-top: 100px; */
-}
-#skills {
-  padding-top: 0px;
+  margin-top: 100px auto;
 }
 
 
@@ -144,6 +148,10 @@ h4 {
   color: #727272;
 }
 
+#about h4 {
+  padding-bottom: 50px;
+}
+
 .left {
   width: 40%;
   float: left;
@@ -153,8 +161,8 @@ h4 {
 
 .right {
   width: 80%;
-  padding: 30px;
-  text-align: center;
+  padding-left: 20px;
+  text-align: justify;
   margin: auto;
 }
 
@@ -198,6 +206,7 @@ h4 {
   background-color: rgb(240, 243, 241);
   margin: 50px 20px;
   padding: 20px;
+  padding-top: 100px;
 }
 
 .pOne {
@@ -285,7 +294,7 @@ h4 {
   text-align: center;
   display: inline-block;
   border: 2px solid #735585;
-  background-color: #e9e9e9;
+  background-color: white;
 
   width: 200px;
   padding: 10px 20px;
@@ -294,7 +303,8 @@ h4 {
 }
 
 .sectionWrapper {
-  max-width: 1100px;
+  max-width: 1400px;
+  /* width: 80%; */
   margin: auto;
 }
 
@@ -337,26 +347,17 @@ footer img {
 
 /***** Media queries *****/
 
-@media only screen and (max-width: 1925px) {
-  .stmt {
-    top: 200px;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
   .stmt {
-    font-size: 24px;
-    left: 20%;
-    top: 150px;
+    top: 280px;
   }
 }
 
-
 @media only screen and (max-width: 760px) {
-  .stmt {
-    font-size: 14px;
-    left: 10%;
+  .left img {
+    width: 150%;
   }
+
   .navRight {
     padding: 10px 5px;
     font-size: 16px;
@@ -399,14 +400,6 @@ footer img {
   .container {
     width: 100%;
   }
-  .skillIcons li {
-    width: 170px;
-    height: 45px;
-  }
-  .stmt {
-    padding-top: 120px;
-    font-size: 24px;
-  }
   h1 {
     padding-top: 220px;
   }
@@ -415,7 +408,6 @@ footer img {
 @media only screen and (max-width: 387px) {
   .stmt {
     font-size: 14px;
-    left: 10%;
   }
   .demoCode a {
     display: block;
@@ -428,10 +420,6 @@ footer img {
 }
 
 @media only screen and (max-width: 530px) {
-  .stmt {
-    font-size: 20px;
-    left: 11%;
-  }
   .navRight {
     padding: 10px 5px;
     font-size: 16px;
@@ -456,9 +444,5 @@ footer img {
   }
   .demoCode a {
     padding: 7px 18px;
-  }
-  .skillIcons li {
-    width: 115px;
-    height: 50px;
   }
 }
