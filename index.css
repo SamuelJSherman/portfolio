@@ -355,7 +355,7 @@ footer img {
 
 @media only screen and (max-width: 760px) {
   .left img {
-    width: 150%;
+    width: 90%;
   }
 
   .navRight {
